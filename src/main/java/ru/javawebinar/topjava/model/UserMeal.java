@@ -28,12 +28,4 @@ public class UserMeal {
     public int getCalories() {
         return calories;
     }
-
-    public LocalDate getLocalDate(){
-        return dateTime.toLocalDate();
-    }
-
-    public LocalTime getLocalTime(){
-        return dateTime.toLocalTime();
-    }
 }
